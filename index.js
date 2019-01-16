@@ -1,3 +1,13 @@
+let start = 0;
+function giveANumber(katzDeliLine){
+  start ++;
+  katzDeliLine.push(start);
+  return `Welcome, you are number ${start} in line.`
+}
+
+
+
+
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
   let position = katzDeliLine.indexOf(name) + 1
